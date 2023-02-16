@@ -1,0 +1,5 @@
+CREATE TABLE cars (
+    id INTEGER IDENTITY(1,1) PRIMARY KEY,
+    model VARCHAR(20) NOT NULL,
+    cost INTEGER NOT NULL
+);

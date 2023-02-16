@@ -1,0 +1,5 @@
+CREATE TABLE users (
+    id INTEGER IDENTITY(1,1) PRIMARY KEY,
+    firstName VARCHAR(20) NOT NULL ,
+    secondName VARCHAR(20) NOT NULL
+);
