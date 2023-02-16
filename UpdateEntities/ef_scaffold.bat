@@ -1,0 +1,2 @@
+cd..
+dotnet ef dbcontext scaffold "Server=157.245.16.59,1433;Initial Catalog=newapidb;User ID=sa;Password=MY_P@ssw0rd;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer --output-dir Entities --table cars --table users
